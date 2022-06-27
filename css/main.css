@@ -1,0 +1,88 @@
+*{ 
+    box-sizing: border-box;
+    }  
+    
+    body{ 
+    
+        margin: 0; 
+        padding: 0; 
+    }  
+    
+    img{ 
+    vertical-align: middle; 
+    object-fit: cover;
+    }  
+    
+    .container{ 
+     width: 1240px; 
+     padding: 0 20px; 
+     margin: 0 auto;
+    }  
+    
+    .visually-hidden {
+        clip: rect(0 0 0 0);
+        clip-path: inset(50%);
+        height: 1px;
+        overflow: hidden;
+        position: absolute;
+        white-space: nowrap;
+        width: 1px;
+      } 
+      
+    
+    
+      
+    .sity-section{ 
+    background-color: rgb(24, 108, 108);
+    }   
+    
+    .form{  
+    display: flex; 
+    align-items: center; 
+    justify-content: space-between; 
+    width: 650px; 
+    margin: 50px auto;  
+    padding: 100px 0px;
+     
+    
+    }  
+    .form_label{ 
+        text-shadow: 2px 2px 5px #fff; 
+        position: relative;
+    } 
+    .form_label::before{  
+     position: absolute;  
+     top: 0;  
+     bottom: 0;  
+     left: -45px;
+     margin: auto;
+     content:'';  
+     width: 35px;   
+     height: 35px;
+     background-image: url("../images/name.png"); 
+     background-repeat: no-repeat; 
+     background-size: 100%;  
+    }
+    .form_label:nth-child(2)::before{ 
+    background-image: url("../images/pass.png");
+    } 
+    .form_label:nth-child(3)::before{ 
+    background-image: url("../images/surname.png");
+    } 
+    .form_label:nth-child(4)::before{ 
+    background-image: url("../images/tel.png");
+    }
+    
+    .form_list{   
+        margin: 0; 
+        margin: 10px 0; 
+        padding: 10px 4px 10px 4px; 
+        width: 250px; 
+        height: 40px;
+        display: block; 
+        border-radius: 20px; 
+        background-color: #fff; 
+        color: red; 
+        border: none; 
+        text-shadow: 2px 2px 5px #fff;
+    } 
